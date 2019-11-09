@@ -1,0 +1,22 @@
+<div class ="container">
+    <form method="POST" action="https://api.staticman.net/v3/entry/alexwaibel/simple-staticman-site/master">
+        <input name="options[redirect]" type="hidden" value="https://waibel.us/simple-staticman-site/redirect-page">    
+        <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="fields[name]" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="fields[email]" placeholder="Your email address">
+
+        <br>
+
+        <label for="message">Comment</label>
+        <textarea id="message" name="fields[message]" placeholder="Write something."></textarea>
+
+        <br>
+
+        <button type="submit">Submit Comment</button>
+    
+    </form>  
+</div>

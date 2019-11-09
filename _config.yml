@@ -29,6 +29,9 @@ url: "https://waibel.us" # the base hostname & protocol for your site, e.g. http
 twitter_username: jekyllrb
 github_username:  jekyll
 
+disqus:
+  shortname: my_disqus_shortname
+
 # Build settings
 theme: minima
 plugins:
